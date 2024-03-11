@@ -19,7 +19,7 @@ int main(){
    
     int aRandNum = rand();
 
-    cout << "Random number is " << aRandNum << endl;
+    cout << "Your random number is " << aRandNum << endl;
 
     int aRandNum2 = rand();
 
@@ -28,8 +28,8 @@ int main(){
     //generate between 50 and 500
     int numPossibleVals = highVal - lowVal + 1;
 
-    cout << "There are " << numPossibleVals << " to generate" << 
-    "between " << lowVal << " and " << highVal << endl;
+    cout << "There are " << numPossibleVals << " values to generate between " 
+    << lowVal << " and " << highVal << endl;
 
     int randWithMod = aRandNum % numPossibleVals;
 
