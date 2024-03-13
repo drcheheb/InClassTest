@@ -14,6 +14,8 @@ int main(){
     cin >> num;
     if (cin.fail()){
        cout << "Input failure. Kick rocks, chump" << endl;
+       cin.clear();
+       cin.ignore (100, '\n');
        }
     else if (10 <= num && num <= 20){
         cout << "Data is valid" << endl;
